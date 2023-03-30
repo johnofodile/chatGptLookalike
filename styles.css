@@ -1,0 +1,80 @@
+
+
+
+/*Common Styles*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+    text-decoration: none;
+    list-style-type:none;
+    font-family: 'Bitter', serif;
+   
+   
+
+}
+/*end of common styles*/
+
+
+body{
+ 
+
+  background-color: rgb(9, 9, 26);
+}
+/*Nav Start*/
+
+
+.navContainer{
+    margin-top: 4%;
+    width:100%;
+    color:white;
+    display:flex;
+
+    justify-content: space-around;
+
+}
+nav .navContainer .navMenu a{
+    text-shadow: none;
+    color:white;
+    font-weight: 300;
+   margin-right: 5rem;
+    font-size: 1.3rem;
+}
+
+
+nav .navContainer .navSign Button{
+    color:white;
+    font-size:1.3rem ;
+} 
+
+nav .navContainer .navSign .signInButton .Button1{
+    border:none;
+background-color: rgb(9, 9, 26);
+}
+nav .navContainer .navSign .signUpButton .Button2{
+background-color: brown;
+width:10rem;
+height:4rem;
+border-radius: .5rem;
+    position:relative;
+    bottom:1rem;
+}
+
+ nav .navContainer .navMenu .menu1{
+  font-weight: bolder;
+  color:white;
+}
+
+
+
+nav .navContainer .navSign{
+    display:flex;
+}
+
+
+
+
+
+
+/*Nav End*/
